@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirebaseBD.AddTicketActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:text="Ticket HelpDesk"
+        android:textSize="24sp"
+        android:textColor="#00f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!--Campo para el titulo -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtNumeroTicket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:enabled="false"
+            android:hint="Numero de Ticket" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--Campo para el titulo -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtTituloTicket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Titulo del Ticket" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Campo para la descripcion -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtDescripcionTicket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Descripcion del ticket" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Campo para el departamento del usuario "Finanzas"-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtDepartamentoTicket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Departamento pertenece" />
+
+        <!--Campo para el autor del ticket -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtAutorTicket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Autor del Ticket" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--Campo para el Correo -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtCorreoTicket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Correo" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Campo para la fecha de creacion-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtFechaAlta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de Creacion."
+            android:enabled="false"
+            android:inputType="date" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <!--Campo para el titulo -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:enabled="false"
+            android:hint="Estado" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <!--Nota para los campos de estado de ticket y para la fecha de finalizacion,
+        a la hora de tener la instancia del objeto se definiran como null, y se podran
+        actualziar con la funcion editar, para poder actualizar como resuelto el ticket
+        y tener fecha de finalizacion. -->
+
+    <!-- Botones -->
+
+    <Button
+        android:text="Guardar"
+        android:onClick="guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Cancelar"
+        android:onClick="cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

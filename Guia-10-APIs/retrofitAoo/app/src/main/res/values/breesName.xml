@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="breeds_array">
+        <item>affenpinscher</item>
+        <item>african</item>
+        <item>airedale</item>
+        <item>akita</item>
+        <item>appenzeller</item>
+        <item>shepherd australian</item>
+        <item>basenji</item>
+        <item>beagle</item>
+        <item>bluetick</item>
+        <item>borzoi</item>
+        <item>bouvier</item>
+        <item>boxer</item>
+        <item>brabancon</item>
+        <item>briard</item>
+        <item>norwegian buhund</item>
+        <item>boston bulldog</item>
+        <item>english bulldog</item>
+        <item>french bulldog</item>
+        <item>staffordshire bullterrier</item>
+        <item value="cattledog-australian">australian cattledog</item>
+        <item value="chihuahua">chihuahua</item>
+        <item value="chow">chow</item>
+        <item value="clumber">clumber</item>
+        <item value="cockapoo">cockapoo</item>
+        <item value="collie-border">border collie</item>
+        <item value="coonhound">coonhound</item>
+        <item value="corgi-cardigan">cardigan corgi</item>
+        <item value="cotondetulear">cotondetulear</item>
+        <item value="dachshund">dachshund</item>
+        <item value="dalmatian">dalmatian</item>
+        <item value="dane-great">great dane</item>
+        <item value="deerhound-scottish">scottish deerhound</item>
+        <item value="dhole">dhole</item>
+        <item value="dingo">dingo</item>
+        <item value="doberman">doberman</item>
+        <item value="elkhound-norwegian">norwegian elkhound</item>
+        <item value="entlebucher">entlebucher</item>
+        <item value="eskimo">eskimo</item>
+        <item value="finnish-lapphund">lapphund finnish</item>
+        <item value="frise-bichon">bichon frise</item>
+        <item value="germanshepherd">germanshepherd</item>
+        <item value="greyhound-italian">italian greyhound</item>
+        <item value="groenendael">groenendael</item>
+        <item value="havanese">havanese</item>
+        <item value="hound-afghan">afghan hound</item>
+        <item value="hound-basset">basset hound</item>
+        <item value="hound-blood">blood hound</item>
+        <item value="hound-english">english hound</item>
+        <item value="hound-ibizan">ibizan hound</item>
+        <item value="hound-plott">plott hound</item>
+        <item value="hound-walker">walker hound</item>
+        <item value="husky">husky</item>
+        <item value="keeshond">keeshond</item>
+        <item value="kelpie">kelpie</item>
+        <item value="komondor">komondor</item>
+        <item value="kuvasz">kuvasz</item>
+        <item value="labradoodle">labradoodle</item>
+        <item value="labrador">labrador</item>
+        <item value="leonberg">leonberg</item>
+        <item value="lhasa">lhasa</item>
+        <item value="malamute">malamute</item>
+        <item value="malinois">malinois</item>
+        <item value="maltese">maltese</item>
+        <item value="mastiff-bull">bull mastiff</item>
+        <item value="mastiff-english">english mastiff</item>
+        <item value="mastiff-tibetan">tibetan mastiff</item>
+        <item value="mexicanhairless">mexicanhairless</item>
+        <item value="mix">mix</item>
+        <item value="mountain-bernese">bernese mountain</item>
+        <item value="mountain-swiss">swiss mountain</item>
+        <item value="newfoundland">newfoundland</item>
+        <item value="otterhound">otterhound</item>
+        <item value="ovcharka-caucasian">caucasian ovcharka</item>
+        <item value="papillon">papillon</item>
+        <item value="pekinese">pekinese</item>
+        <item value="pembroke">pembroke</item>
+        <item value="pinscher-miniature">miniature pinscher</item>
+        <item value="pitbull">pitbull</item>
+        <item value="pointer-german">german pointer</item>
+        <item value="pointer-germanlonghair">germanlonghair pointer</item>
+        <item value="pomeranian">pomeranian</item>
+        <item value="poodle-medium">medium poodle</item>
+        <item value="poodle-miniature">miniature poodle</item>
+        <item value="poodle-standard">standard poodle</item>
+        <item value="poodle-toy">toy poodle</item>
+        <item value="pug">pug</item>
+        <item value="puggle">puggle</item>
+        <item value="pyrenees">pyrenees</item>
+        <item value="redbone">redbone</item>
+        <item value="retriever-chesapeake">chesapeake retriever</item>
+        <item value="retriever-curly">curly retriever</item>
+        <item value="retriever-flatcoated">flatcoated retriever</item>
+        <item value="retriever-golden">golden retriever</item>
+        <item value="ridgeback-rhodesian">rhodesian ridgeback</item>
+        <item value="rottweiler">rottweiler</item>
+        <item value="saluki">saluki</item>
+        <item value="samoyed">samoyed</item>
+        <item value="schipperke">schipperke</item>
+        <item value="schnauzer-giant">giant schnauzer</item>
+        <item value="schnauzer-miniature">miniature schnauzer</item>
+        <item value="segugio-italian">italian segugio</item>
+        <item value="setter-english">english setter</item>
+        <item value="setter-gordon">gordon setter</item>
+        <item value="setter-irish">irish setter</item>
+        <item value="sharpei">sharpei</item>
+        <item value="sheepdog-english">english sheepdog</item>
+        <item value="sheepdog-shetland">shetland sheepdog</item>
+        <item value="shiba">shiba</item>
+        <item value="shihtzu">shihtzu</item>
+        <item value="spaniel-blenheim">blenheim spaniel</item>
+        <item value="spaniel-brittany">brittany spaniel</item>
+        <item value="spaniel-cocker">cocker spaniel</item>
+        <item value="spaniel-irish">irish spaniel</item>
+        <item value="spaniel-japanese">japanese spaniel</item>
+        <item value="spaniel-sussex">sussex spaniel</item>
+        <item value="spaniel-welsh">welsh spaniel</item>
+        <item value="spitz-japanese">japanese spitz</item>
+        <item value="springer-english">english springer</item>
+        <item value="stbernard">stbernard</item>
+        <item value="terrier-american">american terrier</item>
+        <item value="terrier-australian">australian terrier</item>
+        <item value="terrier-bedlington">bedlington terrier</item>
+        <item value="terrier-border">border terrier</item>
+        <item value="terrier-cairn">cairn terrier</item>
+        <item value="terrier-dandie">dandie terrier</item>
+        <item value="terrier-fox">fox terrier</item>
+        <item value="terrier-irish">irish terrier</item>
+        <item value="terrier-kerryblue">kerryblue terrier</item>
+        <item value="terrier-lakeland">lakeland terrier</item>
+        <item value="terrier-norfolk">norfolk terrier</item>
+        <item value="terrier-norwich">norwich terrier</item>
+        <item value="terrier-patterdale">patterdale terrier</item>
+        <item value="terrier-russell">russell terrier</item>
+        <item value="terrier-scottish">scottish terrier</item>
+        <item value="terrier-sealyham">sealyham terrier</item>
+        <item value="terrier-silky">silky terrier</item>
+        <item value="terrier-tibetan">tibetan terrier</item>
+        <item value="terrier-toy">toy terrier</item>
+        <item value="terrier-welsh">welsh terrier</item>
+        <item value="terrier-westhighland">westhighland terrier</item>
+        <item value="terrier-wheaten">wheaten terrier</item>
+        <item value="terrier-yorkshire">yorkshire terrier</item>
+        <item value="tervuren">tervuren</item>
+        <item value="vizsla">vizsla</item>
+        <item value="waterdog-spanish">spanish waterdog</item>
+        <item value="weimaraner">weimaraner</item>
+        <item value="whippet">whippet</item>
+        <item value="wolfhound-irish">irish wolfhound</item>
+    </string-array>
+</resources>

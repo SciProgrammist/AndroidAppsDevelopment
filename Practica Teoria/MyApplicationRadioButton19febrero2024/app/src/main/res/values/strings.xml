@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application Radio Button 19 febrero 2024</string>
+    <string name="preguntaEspecialidad">¿Cual es tu especialidad preferida de informatica?</string>
+    <string name="InformaticaRedes">Redes</string>
+    <string name="InformaticaDesarrollo">Desarrollo</string>
+    <string name="InformaticaAuditoria">Auditoria</string>
+
+</resources>

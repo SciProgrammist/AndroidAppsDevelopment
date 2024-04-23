@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practica Desafia 01</string>
+    <string name="nombre">Nombre Completo: </string>
+    <string name="carnet">Carnet: </string>
+    <string name="cum">CUM: </string>
+    <string name="uv">UV: </string>
+    <string name="enviar">Enviar </string>
+    <string name="retornar">Regresar</string>
+</resources>

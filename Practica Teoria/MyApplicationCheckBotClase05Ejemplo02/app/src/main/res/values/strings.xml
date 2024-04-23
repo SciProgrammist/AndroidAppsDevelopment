@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application CheckBot Clase 05 Ejemplo 02</string>
+    <string-array name="lenguajes">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>C Sharp</item>
+        <item>C++</item>
+        <item>PHP</item>
+        <item>Python</item>
+    </string-array>
+</resources>

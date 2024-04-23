@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "894378037170",
+    "project_id": "tickethelp-desafio-ii",
+    "storage_bucket": "tickethelp-desafio-ii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894378037170:android:5d73524171cdae5c655eab",
+        "android_client_info": {
+          "package_name": "com.example.ticket_rp191495_ps190756"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuijmmfwKny2M1hvGConu1SR5iaKxuyA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application Checkbox Clase 05 Teoria</string>
+    <string name="Pregunta">Cuales son tus pasatiempos favoritos? </string>
+    <string name="opcionLectura">Lectura</string>
+    <string name="opcionPasear">Pasear</string>
+    <string name="opcionSeriesTV">Series de TV</string>
+    <string name="opcionCompras">Compras centro comercial</string>
+</resources>
